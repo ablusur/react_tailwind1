@@ -11,14 +11,14 @@ export default {
         'osans': ['Open Sans', 'sans-serif'],
       },
       maxWidth:{
-        contianer:"1120px"
+        container:"1120px"
       },
       colors:{
         clr:"green"
       },
-      background:{
-        bn:"url(../)"
-      }
+      backgroundImage:{
+        bn:"url(../src/assets/ban.png)"
+      },
     },
   },
   plugins: [],
