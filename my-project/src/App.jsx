@@ -4,10 +4,14 @@ function App() {
 
   return (
     <>
-    <div className="bg-[blue] h-[100px] mx-auto py-10 max-w-contianer">
-    <h1 className="text-clr font-bold">hello</h1>
-    </div>
-    
+      <div className="flex gap-x-4">
+         <div className="w-1/2 bg-[red]">
+           <h2>hello</h2>
+         </div>
+         <div className="w-1/2 bg-[green]">
+           <h2>galo</h2>
+         </div>
+      </div>
     </>
   )
 }

@@ -15,6 +15,9 @@ export default {
       },
       colors:{
         clr:"green"
+      },
+      background:{
+        bn:"url(../)"
       }
     },
   },
