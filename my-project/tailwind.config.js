@@ -9,6 +9,8 @@ export default {
     extend: {
       fontFamily: {
         'osans': ['Open Sans', 'sans-serif'],
+       
+        'pops': ["Poppins", 'sans-serif'],
       },
       maxWidth:{
         container:"1120px"
