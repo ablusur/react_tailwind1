@@ -3,18 +3,8 @@ import slideImage1 from "../assets/slide1.png"
 import slideImage2 from "../assets/slide2.png"
 import slideImage3 from "../assets/slide3.png"
 import slideImage4 from "../assets/slide4.png"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 
 const Service = () => {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      };
   return (
     <div className="py-[100px]">
        <div className="max-w-container mx-auto py-[100px]">
@@ -28,26 +18,12 @@ const Service = () => {
          </div>
        </div>
            {/* Slick slider start */}
-           <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
+             <div className="flex">
+             <img src={slideImage1}alt="" />
+             <img src={slideImage2}alt="" />
+             <img src={slideImage3}alt="" />
+             <img src={slideImage4}alt="" />
+             </div>  
            {/* Slick slider end */}
 
     </div>
