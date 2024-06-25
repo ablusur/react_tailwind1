@@ -18,6 +18,9 @@ export default {
       colors:{
         clr:"green"
       },
+      backgroundColor:{
+        bclr:"gray"
+      },
       backgroundImage:{
         bn:"url(../src/assets/ban.png)"
       },
